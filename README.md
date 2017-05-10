@@ -13,7 +13,7 @@
 2. Only Venues has been used for this project due to time restriction.
 3. Other DataFrames will be stored and used for statical analysis in the future
 
-## The Five Ss(Stream, Store, Structure, Synthesize, Show)
+## The Five S's(Stream, Store, Structure, Synthesize, Show)
 
 ### Stream
 - EC2, Kafka producer/spark consumer
@@ -25,9 +25,7 @@
 - S3, Parquet, Pandas DataFrame, png(geoplotlib)
 
 ### Synthesize
-- EMR, Spark Streaming Kafka, Spark-submit
+- EMR, Spark Streaming Kafka, Spark-submit, Spark SKlearn(KMeans)
 
 ### Show
 - S3, html, Flask
-
- 
