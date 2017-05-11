@@ -9,6 +9,8 @@
 
 ![](https://github.com/derekliu7/DE-Final-Project/blob/master/Architecture.png =200x50)
 
+<img src="https://github.com/derekliu7/DE-Final-Project/blob/master/Architecture.png" width="100" height="200" />
+
 ## Data
 
 ![](https://github.com/derekliu7/DE-Final-Project/blob/master/Table%20Diagram.png)
