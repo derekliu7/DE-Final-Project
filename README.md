@@ -2,7 +2,7 @@
 
   __Current__:
 - Geographically plotting clusters of events based on location
-- Spark streaming numbers of event
+- Spark streaming numbers of event for cities in the U.S.
 
 ## Technology and Architecture Diagram
 
