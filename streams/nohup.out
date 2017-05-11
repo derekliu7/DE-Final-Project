@@ -1,0 +1,104 @@
+--- request header ---
+GET /2/rsvps HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: stream.meetup.com
+Origin: http://stream.meetup.com
+Sec-WebSocket-Key: UaWIi7er2Yfwe/KB9ygx5w==
+Sec-WebSocket-Version: 13
+
+
+-----------------------
+--- response header ---
+HTTP/1.1 101 Switching Protocols
+Date: Tue, 09 May 2017 20:47:37 GMT
+Connection: upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: vKxj3jC7krUGRweNOcV+G3ba9AQ=
+-----------------------
+Traceback (most recent call last):
+  File "firehose_consumer.py", line 12, in <module>
+    credentials = yaml.load(open(os.path.expanduser('~/api_cred.yml')))
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/DL/api_cred.yml'
+Traceback (most recent call last):
+  File "firehose_consumer.py", line 12, in <module>
+    credentials = yaml.load(open(os.path.expanduser('~/api_cred.yml')))
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/DL/api_cred.yml'
+Traceback (most recent call last):
+  File "firehose_consumer.py", line 12, in <module>
+    credentials = yaml.load(open(os.path.expanduser('~/api_cred.yml')))
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/DL/api_cred.yml'
+Traceback (most recent call last):
+  File "firehose_consumer.py", line 25, in <module>
+    for message in consumer:
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/consumer/group.py", line 964, in __next__
+    return next(self._iterator)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/consumer/group.py", line 904, in _message_generator
+    self._client.poll(timeout_ms=poll_ms, sleep=True)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client_async.py", line 525, in poll
+    responses.extend(self._poll(timeout, sleep=sleep))
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client_async.py", line 542, in _poll
+    ready = self._selector.select(timeout)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/selectors.py", line 577, in select
+    kev_list = self._kqueue.control(None, max_ev, timeout)
+KeyboardInterrupt
+--- request header ---
+GET /2/rsvps HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: stream.meetup.com
+Origin: http://stream.meetup.com
+Sec-WebSocket-Key: WG1hGP4V1wpgRqoZGtyk3Q==
+Sec-WebSocket-Version: 13
+
+
+-----------------------
+--- response header ---
+HTTP/1.1 101 Switching Protocols
+Date: Wed, 10 May 2017 04:14:28 GMT
+Connection: upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: Z+8aF5yBk+M9qdLaSP0qTVQwMuA=
+-----------------------
+send: b'\x88\x82c\x94\\\xb6`|'
+[Errno 60] Operation timed out
+### closed ###
+Traceback (most recent call last):
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/conn.py", line 622, in _recv
+    data = self._sock.recv(bytes_to_read)
+BlockingIOError: [Errno 35] Resource temporarily unavailable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "prodtest.py", line 4, in <module>
+    kafka = KafkaClient('localhost:9092')
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/__init__.py", line 45, in __init__
+    super(KafkaClient, self).__init__(*args, **kwargs)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 57, in __init__
+    self.load_metadata_for_topics()  # bootstrap with all metadata
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 531, in load_metadata_for_topics
+    resp = self.send_metadata_request(topics)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 596, in send_metadata_request
+    return self._send_broker_unaware_request(payloads, encoder, decoder)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 178, in _send_broker_unaware_request
+    conn.recv()
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/conn.py", line 607, in recv
+    response = self._recv()
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/conn.py", line 632, in _recv
+    except SSLWantReadError:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "prodtest.py", line 4, in <module>
+    kafka = KafkaClient('localhost:9092')
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/__init__.py", line 45, in __init__
+    super(KafkaClient, self).__init__(*args, **kwargs)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 57, in __init__
+    self.load_metadata_for_topics()  # bootstrap with all metadata
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 531, in load_metadata_for_topics
+    resp = self.send_metadata_request(topics)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 596, in send_metadata_request
+    return self._send_broker_unaware_request(payloads, encoder, decoder)
+  File "/Users/DL/anaconda3/envs/dsci6007/lib/python3.5/site-packages/kafka/client.py", line 186, in _send_broker_unaware_request
+    raise KafkaUnavailableError('All servers failed to process request: %s' % hosts)
+kafka.errors.KafkaUnavailableError: KafkaUnavailableError: All servers failed to process request: [('localhost', 9092, <AddressFamily.AF_UNSPEC: 0>)]
