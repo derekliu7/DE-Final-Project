@@ -35,7 +35,7 @@
 
 ## The Eight properties
 
-![alt text](http://witsvuvuzela.com/wp-content/uploads/2016/02/25_hateful-eight-poster-2.jpg?x34542)
+![alt text](http://witsvuvuzela.com/wp-content/uploads/2016/02/25_hateful-eight-poster-2.jpg?x34542 =100x20)
 
 
 
