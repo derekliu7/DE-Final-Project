@@ -32,6 +32,13 @@
 ### Show
 - S3, html, Flask
 
+
+## The Eight properties
+
+![alt text](http://witsvuvuzela.com/wp-content/uploads/2016/02/25_hateful-eight-poster-2.jpg?x34542)
+
+
+
 ## Obstacles
 
 - Difficult to set up spark streaming Kafka
