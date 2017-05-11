@@ -1,4 +1,5 @@
 # Data Engineering Final Project
+-- Use everything I've learned in this course. That's right!
 
   __Current__:
 - Geographically plotting clusters of events based on location
