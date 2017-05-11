@@ -7,9 +7,7 @@
 
 ## Technology and Architecture Diagram
 
-![](https://github.com/derekliu7/DE-Final-Project/blob/master/Architecture.png =200x50)
-
-<img src="https://github.com/derekliu7/DE-Final-Project/blob/master/Architecture.png" width="100" height="200" />
+<img src="https://github.com/derekliu7/DE-Final-Project/blob/master/Architecture.png" width="1000" height="800" />
 
 ## Data
 
