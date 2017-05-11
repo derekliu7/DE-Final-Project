@@ -44,3 +44,5 @@
 - Update the current map: Label and categorize major cities based on the cluster of descriptions(eg: San Francisco: Tech, Los Angeles: Entertainment, Tokyo: Anime Expo...)
 
 - Make a Realtime event counting table(JavaScript!!! Dam!!!)
+
+https://s3.amazonaws.com/clustermapbucket/geohtml
