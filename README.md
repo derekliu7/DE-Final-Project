@@ -17,10 +17,10 @@
 ## The Five S's(Stream, Store, Structure, Synthesize, Show)
 
 ### Stream
-- EC2, Kafka producer/spark consumer
+- EC2, WebSocket, Request
 
 ### Store
-- S3, WebSocket
+- S3, Firehose, Spark
 
 ### Structure
 - S3, Parquet, Pandas DataFrame, png(Geoplotlib)
