@@ -37,7 +37,34 @@
 
 ![alt text](https://www.cinemaz.com/images/stories/immagini_2016/the-hateful-eight/the-hateful-eight-copia-pirata.jpg)
 
+### Robustness and fault tolerance
+- Data are stored in AWS
+- Divided and stored in multiple folders in S3
 
+### Low latency reads and updates
+- spark-submit script(reads parquet, divides and stores, plot and save, push to s3) daily
+- spark streaming
+
+### Scalability
+- huh?
+
+### Generalization
+- code can be worked on all other tables
+
+### Extensibility
+- the ML model will need to take all historical data
+- spark streaming city counts can be reset(maybe daily?)
+
+### Ad hoc queries
+- huh?
+
+### Minimal maintenance
+- batch - spin a cluster and run the spark-submit script, shut it off
+- spark streaming will take place on EC2.
+
+### Debuggability
+- Avoid running Kafka server locally (Extremely difficult to debug)
+- Make a new Instance
 
 ## Obstacles
 
