@@ -7,9 +7,11 @@
 
 ## Technology and Architecture Diagram
 
-![alt text](https://github.com/derekliu7/DE-Final-Project/blob/master/Architecture.png)
+![](https://github.com/derekliu7/DE-Final-Project/blob/master/Architecture.png)
 
 ## Data
+
+![](https://github.com/derekliu7/DE-Final-Project/blob/master/Table%20Diagram.png)
 
 - Data retrieved from MeetUp RSVP saved as __parquet__ files in S3
 - Only __Venues__ table has been used for this project due to time restriction
@@ -35,7 +37,7 @@
 
 ## The Eight properties
 
-![alt text](https://www.cinemaz.com/images/stories/immagini_2016/the-hateful-eight/the-hateful-eight-copia-pirata.jpg)
+![](https://www.cinemaz.com/images/stories/immagini_2016/the-hateful-eight/the-hateful-eight-copia-pirata.jpg)
 
 ### Robustness and fault tolerance
 - Data are stored in AWS
